@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+    width: 100%;
+    display: block;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.ab {
+    position: absolute;
+}
+.up {
+    display: flex;
+    width: 8%;
+    left: 46%;
+    top: 92%;
+}
+.swiper-container {
+    height: 100%;
+    width: 100%;
+    .swiper-slide {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        &:nth-child(1) {
+            .bg {
+                width: 100%;
+                height: 100%;
+            }
+            .text {
+                width: 86%;
+                top: 20%;
+                left: 7%;
+            }
+            .data {
+                width: 86%;
+                top: 70%;
+                left: 7%;
+            }
+            .logo {
+                width: 86%;
+                top: 78%;
+                left: 7%;
+            }
+        }
+        &:nth-child(2) {
+            .bg {
+                width: 100%;
+                left: 0;
+                top: 0;
+            }
+            .bgyuan {
+                width: 110%;
+                left: -5%;
+                top: 5%;
+            }
+            .text1 {
+                width: 60%;
+                left: 20%;
+                top: 20%;
+            }
+            .text2 {
+                width: 52%;
+                left: 23%;
+                top: 40%;
+            }
+            .feiji {
+                width: 20%;
+                left: 68%;
+                top: 36%;
+            }
+            .shan,.shan1 {
+                bottom: -3%;
+                right:0;
+                width: 100%;
+                height: 100%;
+                img{
+                    width:150%;
+                    
+                    position: absolute;
+                    bottom: 0;
+                    left:0%;
+                }
+            }
+        }
+        &:nth-child(3) {
+            .bg {
+                width: 100%;
+                height: 100%;
+            }
+            .text3 {
+                width: 30%;
+                left: 35%;
+                top: 6%;
+            }
+            .text4 {
+                width: 80%;
+                left: 10%;
+                top: 28%;
+            }
+            .text5 {
+                width: 30%;
+                left: 35%;
+                top: 52%;
+            }
+            .text6 {
+                width: 80%;
+                left: 10%;
+                top: 72%;
+            }
+        }
+         &:nth-child(4) {
+            .bg {
+                width: 100%;
+                height: 100%;
+            }
+            .text7{
+                width:86%;
+                left:7%;
+                top:14%;
+            }
+            .text8{
+                width:50%;
+                left:25%;
+                top:34%;
+            }
+            .text9{
+                width:25%;
+                left:68%;
+                top:42%;
+            }
+             .text12{
+                width:25%;
+                left:7%;
+                top:42%;
+            }
+            .text11{
+                width:25%;
+                left:37.5%;
+                 top:58%;
+            }
+            .yuan{
+                width:70%;
+                left:15%;
+                top:28%;
+            }
+        }
+         &:nth-child(5){
+            .bg {
+                width: 100%;
+                height: 100%;
+            }
+            .text13{
+                width:46%;
+                left:27%;
+                top:8%;
+            } 
+            .five-1{
+                width:2%;
+                left:49%;
+                top:15%;
+            }
+            .five-2{
+                width:36%;
+                left:32%;
+                top:20%;
+            } 
+            .five-3{
+                width:2%;
+                left:49%;
+                top:24%;
+            } 
+            .five-4{
+                width:36%;
+                left:32%;
+                top:29%;
+            }  
+             .five-5{
+                width:2%;
+                left:49%;
+                top:33%;
+            } 
+             .five-6{
+                width:36%;
+                left:32%;
+                top:38%;
+            }  
+             .five-7{
+                width:2%;
+                left:49%;
+                top:42%;
+            } 
+             .five-8{
+                width:36%;
+                left:32%;
+                top:47%;
+            }  
+             .five-9{
+                width:2%;
+                left:49%;
+                top:51%;
+            }  
+             .five-10{
+                width:36%;
+                left:32%;
+                top:56%;
+            }  
+             .five-11{
+                width:2%;
+                left:49%;
+                top:60%;
+            }  
+             .five-12{
+                width:36%;
+                left:32%;
+                top:65%;
+            }  
+             .five-13{
+                width:2%;
+                left:49%;
+                top:69%;
+            } 
+             .five-14{
+                width:36%;
+                left:32%;
+                top:74%;
+            }  
+             .five-15{
+                width:2%;
+                left:49%;
+                top:78%;
+            } 
+             .five-16{
+                width:36%;
+                left:32%;
+                top:83%;
+            } 
+             .five-17{
+                width:2%;
+                left:49%;
+                top:87%;
+            }                                
+         }
+         
+         &:nth-child(6) {
+             .bg {
+                width: 100%;
+                height: 100%;
+            }  
+            .six-1{
+                width:70%;
+                left:15%;
+                top:20%;
+            } 
+            .six-2{
+                width:80%;
+                left:10%;
+                top:50%;
+            } 
+         }
+          &:nth-child(7) {
+             .bg {
+                width: 100%;
+                height: 100%;
+            }  
+            .seven-1{
+                width:70%;
+                left:15%;
+                top:25%;
+            } 
+            .seven-2{
+                width:70%;
+                left:15%;
+                top:55%;
+            } 
+            .seven-3{
+                width:50%;
+                left:15%;
+                top:10%;
+            } 
+         }
+    }
+}
